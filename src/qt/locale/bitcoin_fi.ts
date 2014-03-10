@@ -5,7 +5,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
         <source>About Bitcoin</source>
-        <translation>Tietoa Bitcoinista</translation>
+        <translation>Tietoa Stadicoinista</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
@@ -40,7 +40,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
         <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat sinun Bitcoin-osoitteesi suoritusten vastaanottamiseen. Voit halutessasi antaa kullekin lähettäjälle eri osoitteen, jotta voit seurata kuka sinulle maksaa.</translation>
+        <translation>Nämä ovat sinun Stadicoin-osoitteesi suoritusten vastaanottamiseen. Voit halutessasi antaa kullekin lähettäjälle eri osoitteen, jotta voit seurata kuka sinulle maksaa.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
@@ -224,7 +224,7 @@ Tahdotko varmasti salata lompakon?</translation>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin sulkeutuu lopettaakseen salausprosessin. Muista, että salattu lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
+        <translation>Stadicoin sulkeutuu lopettaakseen salausprosessin. Muista, että salattu lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="207"/>
@@ -279,7 +279,7 @@ Tahdotko varmasti salata lompakon?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="73"/>
         <source>Bitcoin Wallet</source>
-        <translation>Bitcoin-lompakko</translation>
+        <translation>Stadicoin-lompakko</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="215"/>
@@ -329,17 +329,17 @@ Tahdotko varmasti salata lompakon?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="203"/>
         <source>&amp;Receive coins</source>
-        <translation>&amp;Vastaanota Bitcoineja</translation>
+        <translation>&amp;Vastaanota Stadicoineja</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="204"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Näytä Bitcoinien vastaanottamiseen käytetyt osoitteet</translation>
+        <translation>Näytä Stadicoinien vastaanottamiseen käytetyt osoitteet</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="209"/>
         <source>&amp;Send coins</source>
-        <translation>&amp;Lähetä Bitcoineja</translation>
+        <translation>&amp;Lähetä Stadicoineja</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="216"/>
@@ -364,7 +364,7 @@ Tahdotko varmasti salata lompakon?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
         <source>Show information about Bitcoin</source>
-        <translation>Näytä tietoa Bitcoin-projektista</translation>
+        <translation>Näytä tietoa Stadicoin-projektista</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="242"/>
@@ -389,12 +389,12 @@ Tahdotko varmasti salata lompakon?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="255"/>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>Varmuuskopioi Lompakko</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="257"/>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished"/>
+        <translation>Vaihda tunnussana</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="517"/>
@@ -413,13 +413,13 @@ Tahdotko varmasti salata lompakon?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished"/>
+        <source>Send coins to a Stadicoin address</source>
+        <translation>Lähetä kolikoita Stadicoin-osoitteeseen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="246"/>
         <source>Modify configuration options for Bitcoin</source>
-        <translation type="unfinished"/>
+        <translation>Muuta configuraatioasetuksia Stadicoinille</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
@@ -449,22 +449,22 @@ Tahdotko varmasti salata lompakon?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="259"/>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"/>
+        <translation>Debug-ikkuna</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"/>
+        <translation>Avaa debuggaus ja diagnostiikka konsoli</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="261"/>
         <source>&amp;Verify message...</source>
-        <translation type="unfinished"/>
+        <translation>Varmenna viesti</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
         <source>Verify a message signature</source>
-        <translation type="unfinished"/>
+        <translation>Varmenna viestin allekirjoitus</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="286"/>
@@ -556,7 +556,7 @@ Tahdotko varmasti salata lompakon?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="654"/>
         <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
+        <translation>Vahvista siirtopalkkio</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="681"/>
@@ -613,7 +613,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../bitcoin.cpp" line="112"/>
         <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"/>
+        <translation>Virhe! Stadicoin ei voi toimia enää turvallisesti ja sammuu.</translation>
     </message>
 </context>
 <context>
@@ -621,7 +621,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../clientmodel.cpp" line="84"/>
         <source>Network Alert</source>
-        <translation type="unfinished"/>
+        <translation>Verkkohälytys</translation>
     </message>
 </context>
 <context>
@@ -634,22 +634,22 @@ Osoite: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="257"/>
         <source>default</source>
-        <translation type="unfinished"/>
+        <translation>Oletusarvo</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="263"/>
         <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
-        <translation type="unfinished"/>
+        <translation>Käyttöliittymän kielen voi valita tästä. Asetus tulee voimaan Stadicoinin käynnityttyä uudelleen.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="252"/>
         <source>User Interface &amp;Language:</source>
-        <translation type="unfinished"/>
+        <translation>Käyttöliittymän kieli:</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="273"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished"/>
+        <translation>Mitä yksiköitä käytetään:</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="277"/>
@@ -659,22 +659,22 @@ Osoite: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="284"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation type="unfinished"/>
+        <translation>Näytä osoitteet siirtolistassa</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
         <source>Whether to show Bitcoin addresses in the transaction list</source>
-        <translation type="unfinished"/>
+        <translation>Näytetäänkö Stadicoin osoitteita siirtolistassa</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>Varoitus</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
         <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="unfinished"/>
+        <translation>Tämä asetus tulee voimaan Stadicoinin käynnistyttyä uudelleen.</translation>
     </message>
 </context>
 <context>
@@ -732,7 +732,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
         <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="unfinished"/>
+        <translation>Syötetty osoite &quot;%1&quot; ei ole pätevä Stadicoin-osoite.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -751,12 +751,12 @@ Osoite: %4</translation>
         <location filename="../bitcoin.cpp" line="133"/>
         <location filename="../bitcoin.cpp" line="143"/>
         <source>Bitcoin-Qt</source>
-        <translation type="unfinished"/>
+        <translation>Stadicoin-Qt</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="133"/>
         <source>version</source>
-        <translation type="unfinished"/>
+        <translation>Versio</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="135"/>
@@ -766,12 +766,12 @@ Osoite: %4</translation>
     <message>
         <location filename="../bitcoin.cpp" line="136"/>
         <source>options</source>
-        <translation type="unfinished"/>
+        <translation>Asetukset</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="138"/>
         <source>UI options</source>
-        <translation type="unfinished"/>
+        <translation>Käyttöliittymän asetukset</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="139"/>
@@ -794,7 +794,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="227"/>
         <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
-        <translation type="unfinished"/>
+        <translation>Irroita lohko- ja osoitetietokannat sammutuksen yhteydessä. Tämä tarkoittaa että ne voidaan siirtää toiseen datahakemistoon mutta se hidastaa sammutusta. Lompakko irroitetaan aina.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="212"/>
@@ -814,17 +814,17 @@ Osoite: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
         <source>&amp;Start Bitcoin on system login</source>
-        <translation type="unfinished"/>
+        <translation>Käynnistä Stadicoin sisäänkirjautumisen yhteydessä</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
         <source>Automatically start Bitcoin after logging in to the system</source>
-        <translation type="unfinished"/>
+        <translation>Käynnistä Stadicoin automaattisesti sisäänkirjautumisen jälkeen</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="226"/>
         <source>&amp;Detach databases at shutdown</source>
-        <translation type="unfinished"/>
+        <translation>Irroita tietokannat sammutuksen yhteydessä</translation>
     </message>
 </context>
 <context>
@@ -832,7 +832,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/messagepage.ui" line="14"/>
         <source>Sign Message</source>
-        <translation type="unfinished"/>
+        <translation>Allekirjoita Viesti</translation>
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="20"/>
@@ -873,22 +873,22 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/messagepage.ui" line="128"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished"/>
+        <translation>Kopioi nykyinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="131"/>
         <source>&amp;Copy Signature</source>
-        <translation type="unfinished"/>
+        <translation>Kopioi Allekirjoitus</translation>
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="142"/>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished"/>
+        <translation>Resetoi kaikki viestin allekirjoituskentät</translation>
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="145"/>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
+        <translation>Tyhjennä Kaikki</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="31"/>
@@ -926,7 +926,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../messagepage.cpp" line="90"/>
         <source>%1 does not refer to a key.</source>
-        <translation type="unfinished"/>
+        <translation>%1 ei viittaa avaimeen.</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="105"/>
@@ -944,7 +944,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="345"/>
         <source>Network</source>
-        <translation type="unfinished"/>
+        <translation>Verkko</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="347"/>
@@ -954,7 +954,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Bitcoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <translation>Avaa Stadicoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="351"/>
@@ -969,12 +969,12 @@ Osoite: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="357"/>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"/>
+        <translation>Välityspalvelimen IP:</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="366"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"/>
+        <translation>Portti:</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="363"/>
@@ -1006,7 +1006,7 @@ Osoite: %4</translation>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished"/>
+        <translation>Näkyvissä olevat tiedot saattavat olla vanhentuneet. Lompakkosi synkronoi automaattisesti Stadicoin-verkon kanssa kun yhteys on muodostettu mutta tämä prosessi ei ole vielä valmis.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="89"/>
@@ -1036,7 +1036,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/overviewpage.ui" line="105"/>
         <source>Your current balance</source>
-        <translation>Tililläsi tällä hetkellä olevien Bitcoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien Stadicoinien määrä</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="134"/>
@@ -1052,7 +1052,7 @@ Osoite: %4</translation>
         <location filename="../overviewpage.cpp" line="110"/>
         <location filename="../overviewpage.cpp" line="111"/>
         <source>out of sync</source>
-        <translation type="unfinished"/>
+        <translation>Ei synkassa</translation>
     </message>
 </context>
 <context>
@@ -1060,7 +1060,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="14"/>
         <source>QR Code Dialog</source>
-        <translation type="unfinished"/>
+        <translation>QR-koodi dialogi</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="32"/>
@@ -1100,7 +1100,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../qrcodedialog.cpp" line="45"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"/>
+        <translation>Virhe muuntaessa URI:a QR-koodiksi.</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="63"/>
@@ -1110,7 +1110,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../qrcodedialog.cpp" line="120"/>
         <source>Save QR Code</source>
-        <translation type="unfinished"/>
+        <translation>Tallenna QR-koodi</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="120"/>
@@ -1123,12 +1123,12 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
         <source>Bitcoin debug window</source>
-        <translation type="unfinished"/>
+        <translation>Stadicoin debug-ikkuna</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="46"/>
         <source>Client name</source>
-        <translation type="unfinished"/>
+        <translation>Asiakasohjelman nimi</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="56"/>
@@ -1146,27 +1146,27 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/rpcconsole.ui" line="69"/>
         <source>Client version</source>
-        <translation type="unfinished"/>
+        <translation>Asiakasohjelman versio</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
         <source>&amp;Information</source>
-        <translation type="unfinished"/>
+        <translation>Tietoa</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="39"/>
         <source>Client</source>
-        <translation type="unfinished"/>
+        <translation>Asiakasohjelman</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="115"/>
         <source>Startup time</source>
-        <translation type="unfinished"/>
+        <translation>Käynnistysaika</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="144"/>
         <source>Network</source>
-        <translation type="unfinished"/>
+        <translation>Verkko</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="151"/>
@@ -1256,7 +1256,7 @@ Osoite: %4</translation>
         <location filename="../sendcoinsdialog.cpp" line="148"/>
         <location filename="../sendcoinsdialog.cpp" line="153"/>
         <source>Send Coins</source>
-        <translation>Lähetä Bitcoineja</translation>
+        <translation>Lähetä Stadicoineja</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="64"/>
@@ -1266,7 +1266,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="67"/>
         <source>&amp;Add Recipient</source>
-        <translation type="unfinished"/>
+        <translation>Lisää vastaanottaja</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="84"/>
@@ -1276,7 +1276,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="87"/>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
+        <translation>Tyhjennä kaikki</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="106"/>
@@ -1286,7 +1286,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="113"/>
         <source>123.456 BTC</source>
-        <translation>123,456 BTC</translation>
+        <translation>123,456 STC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="144"/>
@@ -1306,7 +1306,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="99"/>
         <source>Confirm send coins</source>
-        <translation>Hyväksy Bitcoinien lähettäminen</translation>
+        <translation>Hyväksy Stadicoinien lähettäminen</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="100"/>
@@ -1326,32 +1326,32 @@ Osoite: %4</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="128"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Maksettavan summan tulee olla suurempi kuin 0 Bitcoinia.</translation>
+        <translation>Maksettavan summan tulee olla suurempi kuin 0 Stadicoinia.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="133"/>
         <source>The amount exceeds your balance.</source>
-        <translation type="unfinished"/>
+        <translation>Määrä on suurempi kuin saldosi</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="138"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation type="unfinished"/>
+        <translation>Summa on suurempi kuin saldosi kun %1 siirtopalkkio sisältyy summaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="144"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation type="unfinished"/>
+        <translation>Voit lähettää samaan osoitteeseen vain kerran per lähetys</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="149"/>
         <source>Error: Transaction creation failed.</source>
-        <translation type="unfinished"/>
+        <translation>Siirron luonti epäonnistui</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="154"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
+        <translation>Virhe: Siirto hylättiin. Tämä voi tapahtua jos osa kolikoistasi oli jo käytetty esim. jos käytit kopiota wallet.dat tiedostosta ja kolikot käytettiin kopiosta mutta niitä ei merkitty käytetyksi tähän lompakon kopioon.</translation>
     </message>
 </context>
 <context>
@@ -1385,7 +1385,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="93"/>
         <source>The address to send the payment to  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Osoite, johon Bitcoinit lähetetään  (esim. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Osoite, johon Stadicoinit lähetetään  (esim. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="103"/>
@@ -1786,7 +1786,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../transactionview.cpp" line="130"/>
         <source>Show transaction details</source>
-        <translation type="unfinished"/>
+        <translation>Näytä siirron tiedot</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="270"/>
@@ -1859,22 +1859,22 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="14"/>
         <source>Verify Signed Message</source>
-        <translation type="unfinished"/>
+        <translation>Vahvista allekirjoitettu viesti</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
         <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
-        <translation type="unfinished"/>
+        <translation>Syötä viesti ja allokirjoitus alle.</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
         <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
-        <translation type="unfinished"/>
+        <translation>Vahvista viesti ja näe Stadicoin osoite jota käyettiin viestin allekirjoitukseen</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="65"/>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished"/>
+        <translation>Vahvista Viesti</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="79"/>
@@ -1884,53 +1884,53 @@ Osoite: %4</translation>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="82"/>
         <source>&amp;Copy Address</source>
-        <translation type="unfinished"/>
+        <translation>Kopioi Osoite</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="93"/>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished"/>
+        <translation>Resetoi kaikki viestin vahvistuskentät</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="96"/>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
+        <translation>Tyhjennä kaikki</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
         <source>Enter Bitcoin signature</source>
-        <translation type="unfinished"/>
+        <translation>Syötä Stadicoin allekirjoitus</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="29"/>
         <source>Click &quot;Verify Message&quot; to obtain address</source>
-        <translation type="unfinished"/>
+        <translation>Paina &quot;Vahvista Viesti&quot; painiketta saadaksesi osoitteen</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="55"/>
         <location filename="../verifymessagedialog.cpp" line="62"/>
         <source>Invalid Signature</source>
-        <translation type="unfinished"/>
+        <translation>Väärä allekirjoitus</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="55"/>
         <source>The signature could not be decoded. Please check the signature and try again.</source>
-        <translation type="unfinished"/>
+        <translation>Allekirjoitusta ei voitu purkaa. Tarkista allekirjoitus ja kokeile uudelleen.</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="62"/>
         <source>The signature did not match the message digest. Please check the signature and try again.</source>
-        <translation type="unfinished"/>
+        <translation>Allekirjoitus ei vastannut viestitiivistettä. Tarkista allekirjoitus ja kokeile uudelleen.</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="72"/>
         <source>Address not found in address book.</source>
-        <translation type="unfinished"/>
+        <translation>Osoitetta ei löydy osoitekirjasta.</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="72"/>
         <source>Address found in address book: %1</source>
-        <translation type="unfinished"/>
+        <translation>Osoite löytyi osoitekirjasta: %1</translation>
     </message>
 </context>
 <context>
@@ -1946,7 +1946,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="313"/>
         <source>Window</source>
-        <translation type="unfinished"/>
+        <translation>Ikkuna</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="316"/>
@@ -1961,12 +1961,12 @@ Osoite: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="320"/>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished"/>
+        <translation>Pienennä painettaessa sulkemispainiketta</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="321"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ikkunaa suljettaessa vain pienentää Bitcoin-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
+        <translation>Ikkunaa suljettaessa vain pienentää Stadicoin-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
     </message>
 </context>
 <context>
@@ -1974,7 +1974,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
         <source>Bitcoin version</source>
-        <translation>Bitcoinin versio</translation>
+        <translation>Stadicoinin versio</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="44"/>
@@ -2296,7 +2296,7 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="135"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Bitcoinista</translation>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Stadicoinista</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="136"/>
@@ -2376,7 +2376,7 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="37"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Virhe: Rahansiirto hylättiin.  Tämä voi tapahtua jos jotkin bitcoineistasi on jo käytetty, esimerkiksi jos olet käyttänyt kopiota wallet.dat-lompakkotiedostosta ja bitcoinit on merkitty käytetyksi vain kopiossa.</translation>
+        <translation>Virhe: Rahansiirto hylättiin.  Tämä voi tapahtua jos jotkin bitcoineistasi on jo käytetty, esimerkiksi jos olet käyttänyt kopiota wallet.dat-lompakkotiedostosta ja Stadicoinit on merkitty käytetyksi vain kopiossa.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="41"/>
